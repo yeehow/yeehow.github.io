@@ -6,8 +6,14 @@
 
 @font-face {
     font-family: 'voidFont';
-    src: url('fontName.ttf');
+    src: url('voidfont-webfont.woff2') format('woff2'),
+         url('voidfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+
 
 #menuItemContainer {
     position: absolute !important;
@@ -375,6 +381,7 @@ pointer-events:all !important;
     font-size: 14px;
     background-color: rgba(31, 8, 8, 0);
 } */
+
 
 
 
